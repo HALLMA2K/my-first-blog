@@ -1,0 +1,184 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Joyousness 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130919
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="{% static 'css/Home.css' %}">
+	<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+
+<body>
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">Robert Hallmark</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class=""><a href="{% url 'home' %}" title="">Homepage</a></li>
+					<li><a href="{% url 'resume' %}" title="">Resume</a></li>
+					<li><a href="{% url 'post_list' %}" title="">Blog</a></li>
+					<li><a href="{% url 'projects' %}" title="">Projects</a></li>
+					<li><a href="{% url 'contact' %}" title="">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="wrapper">
+		<div id="welcome" class="wrapper-style1">
+			<div class="title">
+				<h2>Welcome</h2>
+				<span class="byline">to the website of Robert Hallmark</span>
+			</div>
+			<p>This is the website of Robert Hallmark, ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT
+					ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT
+					ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT
+					ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT
+					ADD TEXT ADD TEXT ADD TEXT ADD TEXT</p>
+		</div>
+		<div id="page" class="container">
+			<div id="content">
+				<div class="title">
+					<h2>About</h2>
+					<span class="byline"></span>
+				</div>
+				<div id="port2"><img src="{% static 'images/profilePic.jpg' %}" width="350" height="250" alt="" />
+				</div>
+				<p>I'm Robert Hallmark, a 32 year old audio engineer that decided to change career paths to C/C++
+					programming. I'm currently a student in the C/C++ programming course at UCSD in San Diego, CA due to
+					graduate in 2022. I enjoy taking complex problems and turning them into simple, yet effective
+					programs. I'm fascinated by the logic and structure of coding and strive to always produce a safe
+					and efficient code whether it be C, C++ or Python. </p>
+					<br>
+				<h3>Intrest</h3>
+				<p> ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT
+					ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT
+					ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT
+					ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT
+					ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT
+					ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT
+					ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT
+					ADD TEXT ADD TEXT ADD TEXT ADD TEXT</p>
+			</div>
+			<div id="sidebar">
+				<div id="sbox1">
+					<div class="title">
+						<h2>Latest Blog Posts</h2>
+					</div>
+					<ul class="style2">
+						<li><a href="/post/1/">March 20, 2021 - Hello World</a></li>
+						<li><a href="/post/6/">March 20, 2021 - Blog Test</a></li>
+						<li><a href="/post/4/">March 20, 2021 - Testing new posting featured</a></li>
+						<li><a href="#">COMING SOON!!!</a></li>
+						<li><a href="#">COMING SOON!!!</a></li>
+						<li><a href="#">COMING SOON!!!</a></li>
+					</ul>
+				</div>
+				<div id="sbox2">
+					<div class="title">
+						<h2>Projects</h2>
+					</div>
+					<ul class="style2">
+						<li><a href="#">COMING SOON!!!</a></li>
+						<li><a href="#">COMING SOON!!!</a></li>
+						<li><a href="#">COMING SOON!!!</a></li>
+						<li><a href="#">COMING SOON!!!</a></li>
+						<li><a href="#">COMING SOON!!!</a></li>
+						<li><a href="#">COMING SOON!!!</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="featured-wrapper">
+		<div id="featured" class="container">
+			<div id="box1">
+				<div>
+					<h2>ADD TEXT</h2>
+				</div>
+				<ul class="style1">
+					<li class="first"><a href="#">ADD TEXT ADD TEXT ADD TEXT</a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT</a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT</a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT </a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT </a></li>
+				</ul>
+			</div>
+			<div id="box2">
+				<div>
+					<h2>ADD TEXT</h2>
+				</div>
+				<ul class="style1">
+					<li class="first"><a href="#">ADD TEXT ADD TEXT ADD TEXT</a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT</a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT</a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT </a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT </a></li>
+				</ul>
+			</div>
+			<div id="box3">
+				<div>
+					<h2>ADD TEXT</h2>
+				</div>
+				<ul class="style1">
+					<li class="first"><a href="#">ADD TEXT ADD TEXT ADD TEXT</a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT</a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT</a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT </a></li>
+					<li><a href="#">ADD TEXT ADD TEXT ADD TEXT ADD TEXT ADD TEXT </a></li>>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="portfolio-wrapper">
+		<div id="portfolio" class="container">
+			<h2>Projects</h2>
+			<div id="port1"><img src="{% static 'images/tmpImg.jpg' %}" width="384" height="200" alt="" />
+				<p>Coming Soon!!!</p>
+			</div>
+			<div id="port2"><img src="{% static 'images/tmpImg.jpg' %}" width="384" height="200" alt="" />
+				<p>Coming Soon!!!</p>
+			</div>
+			<div id="port3"><img src="{% static 'images/tmpImg.jpg' %}" width="384" height="200" alt="" />
+				<p>Coming Soon!!!</p>
+			</div>
+		</div>
+	</div>
+	<div id="footer" class="container">
+		<div>
+			<div>
+				<h2>Contact</h2>
+				<span class="byline">Robert Hallmark - <a href="mailto:HALLMA2K@outlook.com">HALLMA2K@outlook.com</span>
+			</div>
+			<ul class="contact">
+				<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
+				<li><a href="#" class="icon icon-facebook"><span></span></a></li>
+				<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
+				<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
+				<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+			</ul>
+		</div>
+		<p>&copy; Design by Robert Hallmark</a></p>
+	</div>
+</body>
+
+</html>
