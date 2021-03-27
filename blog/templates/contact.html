@@ -1,16 +1,6 @@
 {% load static %}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
 
-Name       : Joyousness 
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20130919
-
--->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -18,8 +8,7 @@ Released   : 20130919
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link rel="stylesheet" href="{% static 'css/Home.css' %}">
+<link rel="stylesheet" href="{% static 'css/Home1.css' %}">
 <!--[if IE 6]>
 <link href="default_ie6.css" rel="stylesheet" type="text/css" />
 <![endif]-->
@@ -52,18 +41,19 @@ Released   : 20130919
 				<form role="form" method="post">
 		
 							<div class="form-group">
-								<input type="text" class="form-control" id="name" name="name" placeholder="Name" maxlength="70" required>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name" maxlength="70" required="" style="width: 1192px;">
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+								<input type="text" class="form-control" id="email" name="email" placeholder="Email" required="" style="width: 1192px;">
 							</div>
 		
 							<div class="form-group">
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" maxlength="70" required>
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" maxlength="70" required="" style="width: 1192px;">
 							</div>
 							<div class="form-group">
-							<textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="300" rows="7"></textarea>                
+								<textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="300" rows="7" style="margin: 0px;width: 1194px;height: 300px;"></textarea>                
 							</div>
+							
 		
 				<button type="button" id="submit" name="submit" class="btn btn-m btn-secondary">Submit Form</button>
 				</form>
@@ -73,14 +63,13 @@ Released   : 20130919
 <div id="footer" class="container">
 	<div>
 		<div>
-			<h1>Social</h1>
+			<h2>Social</h2>
 			<span class="byline"></span> </div>
 		<ul class="contact">
 			<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
 			<li><a href="#" class="icon icon-facebook"><span></span></a></li>
 			<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
 			<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
-			<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
 		</ul>
 	</div>
 	<p>&copy; Design by Robert Hallmark</a></p>

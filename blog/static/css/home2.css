@@ -29,7 +29,7 @@
 		Font Awesome More (http://gregoryloucas.github.com/Font-Awesome-More/)
 	*/
 
-	.icon
+.icon
 {
 	text-decoration: none;
 }
@@ -1779,11 +1779,23 @@ ul.contact li a.icon-rss:before
 
 /** WRAPPER */
 
-#wrapper
+#wrapper 
 {
-	background: #FFF;
+    background: #FFF;
+	margin: 0;
 }
 
+[class*="wrapper"] {
+	background: #FFF;
+	margin: 0;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+	/* For desktop: */
+	#wrapper {width: 100%;}
+   
+  }
 #featured-wrapper
 {
 	overflow:  hidden;
